@@ -15,7 +15,7 @@ const headerHTML = `
               
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             -->
-              <big><big>Tree Fun Facts</big></big>
+              <h1>Tree Fun Facts</h1>
             <!--
             </a>
             -->
@@ -33,7 +33,7 @@ const headerHTML = `
                   <a href="/photos">Photos</a>
                   <a href="/nature">Nature</a>
                   <a href="/history">History</a>
-<!--                  <a href="/calendar">Calendar</a> -->
+                  <a href="/calendar">Calendar</a>
                   <a href="/memorials">Memorials</a>
                   <a href="/contact">Contact</a>
                 </div>
