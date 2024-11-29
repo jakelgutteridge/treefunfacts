@@ -15,9 +15,9 @@ const headerHTML = `
               
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             -->
-              <big><big>
+              <big><big><big>
               <h1 style="font-family: Optima Bold; text-transform: none;">Tree Fun Facts</h1>
-              </big></big>
+              </big></big></big>
             <!--
             </a>
             -->
