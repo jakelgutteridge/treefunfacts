@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Optima Bold";
+  src: url(/fonts/Optima/OptimaLTPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Optima Bold Italic";
+  src: url(/fonts/Optima/OptimaLTPro-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: "Optima Italic";
+  src: url(/fonts/Optima/OptimaLTPro-Italic.otf);
+}
+
+@font-face {
+  font-family: Optima;
+  src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+/* Header styles */
+header {
+  background-image: url('/images/headerbg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 5px;
+}
+
+
+h1 {
+    font-size: 24px;
+    padding: 8px 0px 12px 0px;
+    font-family: Optima;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.subheading {
+  font-size: 18px;
+  text-transform: none;
+}
+h2 {
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  color: #6aad0e;
+}
+h3 {
+  font-size: 14px;
+  padding: 10px 0px 10px 0px;
+}
+
+ul {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+li {
+    margin-bottom: 14px;
+  }
+.menu {margin-top: 35px;}
+.menu li {
+  font-size: 20px;
+  font-family: Optima;
+  margin-bottom: 1em;
+  }
+/* Main content styles */
+main {
+  padding: 20px;
+  width: 100%;
+  max-width: 950px;
+  margin: auto;
+}
+/* Links styles */
+a {
+  color: #1e60c9;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+a:visited {
+  color: #c200c2;
+}
+/* Buttons styles */
+.button {
+  display: inline-block;
+  padding: 0px 0px;
+  color: #595959;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.button-text {
+    padding: 0px 8px;
+}
+.button:hover {
+  text-decoration: none;
+}
+.button a:hover {
+    text-decoration: none;
+}
+/* Input styles */
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+/* Footer styles */
+footer {
+  background-image: url('/images/footerbg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 14px;
+}
+/* Additional styles specific to your page structure */
+/* Add your own styles here */
+.image-container {
+  position: relative;
+  display: inline-block; /* or use "block" if you want it to take the full width of its container */
+  text-align: center; /* Center the caption horizontally */
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+}
+.image-container-noborder {
+  position: relative;
+  display: inline-block; /* or use "block" if you want it to take the full width of its container */
+  text-align: center; /* Center the caption horizontally */
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+}
+.caption-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.caption {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 7px;
+}
+hr {
+  border-top: 1px solid #c9c9c9;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.dotted {
+  border-top: 1px dotted #c9c9c9;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.image-table-right {
+  float: right;
+  margin-left: 16px;
+}
+.image-table-left {
+  float: left;
+  margin-right: 16px;
+}
+.image-table-gallery {
+  float: left;
+  margin: 5px;
+}
+.image-gallery {
+  object-fit: cover;
+  object-position: top;
+  width: 160px; height: 160px;
+}
+.gallery {
+  width: 100%;
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.breadcrumb a {
+    color: #ffffff;
+}
+.breadcrumb a.current {
+    font-weight: bold;
+}
+*/
+.dropbtn {
+  float: right;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(#e6e6e6, #bdbdbd);
+  min-width: 90px;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20px;
+  font-family: Optima;
+  /* Adjusted positioning */
+  bottom: -0%; /* Move the dropdown content up by its height */
+  left: -275%;
+  left: -272%;
+  transform-origin: bottom left; /* Set the origin for transform */
+  transform: translate(0, 100%); /* Translate the content down */
+}
+.dropdown-content a {
+  color: #000000;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {text-decoration: none; color: #ffffff; background-color: #6aad0e;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-image: linear-gradient(#595959, #e6e6e6);}
+
+/* Apply styles to the 'table' table */
+table.table {
+    border-collapse: collapse; /* Collapse the borders to avoid double borders */
+    width: 100%; /* Make the table take up the full width of its container */
+}
+/* Apply styles to 'date' cells */
+td.date {
+    border: 1px solid #ccc; /* Set the border to 1px solid grey */
+    padding: 8px; /* Add some padding to the cells */
+    text-align: center; /* Center-align text in 'date' cells */
+    width: 125px;
+}
+/* Apply styles to 'event' cells */
+td.event {
+    border: 1px solid #ccc; /* Set the border to 1px solid grey */
+    padding: 8px; /* Add some padding to the cells */
+    text-align: left; /* Align text to the left in 'event' cells */
+}
+/* Apply styles to table header cells */
+th {
+    background-color: #f2f2f2; /* Add a light background color to header cells */
+    border: 1px solid #ccc; /* Set the border to 1px solid grey */
+    padding: 8px; /* Add some padding to the cells */
+    text-align: left; /* Align text to the left in header cells */
+}
+/*
+.video {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 22px;
+}
+*/
+blockquote{
+  width: 100%;
+  max-width: 902px;
+  font-style: italic;
+  padding: 4px 8px 4px 24px;
+  margin: 0px 0px 0px 24px;
+  border-left: 4px solid #6aad0e ;
+  line-height: 1.6;
+  position: relative;
+}
+blockquote span{
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.background-object {
+  pointer-events: none;
+  user-select: none;
+}
+
+
+
+abbr {cursor: help;}
+
+
+
+
+/* Print styles */
+@media print {
+header, footer {
+  display: none;
+}
