@@ -339,7 +339,9 @@ header, footer {
 
 
 
-
+#breadcrumb {
+  float: right;
+}
 
 #breadcrumb a {
     color: grey !important;
@@ -349,4 +351,3 @@ header, footer {
 #breadcrumb a:hover {
     color: grey !important; /* stays grey even on hover */
 }
-
