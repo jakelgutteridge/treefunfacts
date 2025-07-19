@@ -340,14 +340,25 @@ header, footer {
 
 
 #breadcrumb {
-  float: right;
+  text-align: right;
 }
 
+/* Breadcrumb links always grey */
 #breadcrumb a {
     color: grey !important;
-    text-decoration: none; /* optional, if you want no underline */
+    text-decoration: none;
 }
 
+/* On hover, links remain grey */
 #breadcrumb a:hover {
-    color: grey !important; /* stays grey even on hover */
+    color: grey !important;
 }
+
+/* Chevrons styled grey and unclickable (since they’re plain spans) */
+#breadcrumb .chevron {
+    color: grey;
+    margin: 0 5px; /* space around chevrons */
+    pointer-events: none; /* ensures chevron & spaces are non-clickable */
+    user-select: none;    /* prevents highlighting */
+}
+
